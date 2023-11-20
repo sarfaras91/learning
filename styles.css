@@ -50,6 +50,7 @@
 
 #highlights {
     padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 255, 223), rgb(111, 230, 222));
 }
 
 #highlights h2 {
