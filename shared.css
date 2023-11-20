@@ -8,10 +8,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 60px;
-}
-
-a {
-    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: ;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #page-logo a {
@@ -39,3 +40,18 @@ header ul {
 header li {
     margin-left: 20px;
 }
+
+header a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1 1 2 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+header ul a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+
